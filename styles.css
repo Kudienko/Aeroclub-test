@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 200px;
+    background-color: rgba(0, 255, 72, 0.634);
+    position: sticky;
+    /* position: fixed; - если браузер старый
+    left: 0;
+    right: 0; */
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    /* padding-top: 200px; если браузер старый*/
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 25px  10px;
+    margin: auto;
+}
+
+.footer {
+    height: 200px;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
